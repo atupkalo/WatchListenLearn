@@ -1,0 +1,30 @@
+@import "../../styles/system";
+
+.exercise-header{
+    @include flex(column, center, flex-start);
+    gap: 8px;
+    margin-bottom: 24px;
+}
+ 
+.exercie-name-wrap{
+    @include flex(row, flex-start, center);
+    gap: 8px;
+}
+.exercie-name-title{
+    @include text(20px, 500);
+}
+.exercise-name{
+    @include text(20px, 600);
+}
+.exercie-level{
+    @include text(14px, 500);
+}
+.exercie-desc-wrap{
+    @include flex(column, center, flex-start);
+}
+.exercie-desc-title{
+    @include text(16px, 600);
+}
+.exercise-desc{
+  width: 520px;
+}

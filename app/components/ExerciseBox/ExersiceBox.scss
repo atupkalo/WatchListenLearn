@@ -1,0 +1,38 @@
+@import "../../styles/system";
+
+.exercise-box{
+    @include flex(column, flex-start, stretch);
+    @include panel();
+    padding: 16px;
+    min-width: 600px;
+    align-content: stretch;
+}
+.exercise-percentage-score{
+    padding-top: 16px; 
+    @include flex(row, flex-start, center);
+    gap: 8px;
+}
+.exercise-percentage-score-number{
+  width: 80px;
+  text-align: center;
+  display: block;
+  background: $redBg200;
+  padding: 8px 0;
+  border-radius: 20px;
+  @include text(18px, 500);
+}
+.exercise-correct-answer{
+    padding: 8px 16px;
+    background: $compBgLight;
+    border-radius: 20px;
+}
+.exersice-reset-btn-wrap{
+  @include flex(row, flex-end, center);
+}
+.exercise-reset-btn{
+    @include btn($red700, $red700, $white);
+    padding: 12px 32px;
+    &:hover{
+        background: $red;
+    }
+}

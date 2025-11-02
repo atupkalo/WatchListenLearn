@@ -1,0 +1,36 @@
+@import "../../styles/system";
+
+.grammar_exercises_grid{
+  @include flex(row, flex-start, flex-start);
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.page-desc{
+    @include text(16px, 400);
+    padding: 8px;
+    max-width: 620px;
+}
+.grammar_tabs{
+  width: fit-content;
+  padding-top: 24px;
+  margin-bottom: 24px;
+  @include flex(row, flex-start, center);
+  gap: 8px;
+  border-bottom: 1px solid $primary;
+}
+.grammar-tab-btn{
+    padding: 8px 24px;
+    background-color: #AFB8CE;
+    @include text (16px, 400, $white);
+    border-radius: 10px 10px 0 0;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+        background: $primary;
+    }
+}
+.grammar-tab-active{
+   background: $primary700;
+}

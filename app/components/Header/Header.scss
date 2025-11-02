@@ -1,0 +1,47 @@
+@import "../../styles/system";
+.header{
+    padding: 0 32px;
+    min-height: 64px;
+    background-color: $primary700;
+    width: 100%;
+    @include flex(row, space-between, center);
+}
+.logo, .user{
+    @include flex(row, flex-start, center);
+    gap: 16px;
+}
+.slogan-words{
+    @include title(20px, 500, $white);
+}
+.slogan-text, .user-name{
+    @include text(16px, 400, $white);
+}
+.logo-mobile{
+  display: none;
+}
+.user{
+    gap: 8px;
+}
+
+
+@media (max-width: 678px){
+    .header{
+        padding: 4px 16px;
+    }
+    .logo{
+        display: none;
+    }
+    .logo-mobile{
+        display: block;
+    }
+    .slogan-words{
+        font-size: 18px;
+    }
+    .slogan-text, .user-name{
+        font-size: 14px;
+    }
+    .user{
+        @include flex(column, center, center);
+        gap: 2px;
+    }
+}

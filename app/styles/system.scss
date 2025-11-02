@@ -1,0 +1,73 @@
+// COLORS
+$pageBg: #E2E4E9;
+$copmBg: #f0f1f4;
+$compBgLight: #f9fafb;
+$primary: #56678f;
+$primary600: #435070;
+$primary700: #435070;
+$textTitle: #454954;
+$text: #2E3138;
+$white: #f9fafb;
+$green: #4d7d80;
+$green600: #3D5A5C;
+$red: #996699;
+$red600: #704370;
+$red700: #644459;
+$redBg: #F5EFF5;
+$redBg200: #ECDFEC;
+$redBg300: #E2CFE2;
+$sucsses: #046618;
+$error: #861405;
+
+
+
+
+// FONTS
+$font-title: 'Red Hat Display', sans-serif;
+$font-text: 'Red Hat Text', sans-serif;
+
+//MIXINS
+
+@mixin flex($direction: row, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+@mixin component($bgColor: $copmBg){
+    border-radius: 8px;
+    padding: 12px;
+    background-color: $bgColor;
+}
+@mixin title($size: 32px, $weight: 600, $color: $textTitle){
+   font-family: $font-title;
+   color: $color;
+   font-size: $size;
+   font-weight: $weight;
+}
+@mixin text($size: 16px, $weigth: 400, $color: $text){
+    font-family: $font-text;
+    color: $color;
+    font-size: $size;
+    font-weight: $weigth;
+ }
+ @mixin bg($url){
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+ }
+ @mixin btn($bgColor, $borderColor, $textColor){
+    transition: .3s;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid $borderColor;
+    background: $bgColor;
+    color: $textColor;
+ }
+ @mixin panel(){
+    border: 1px solid $primary;
+    border-radius: 20px;
+    background: $copmBg;
+ }
+

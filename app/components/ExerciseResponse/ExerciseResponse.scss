@@ -1,0 +1,55 @@
+@import "../../styles/system";
+
+
+.exercise_response_wrap{
+  @include flex(column, center, flex-start);
+}
+.response_result_wrap{
+    @include flex(row, flex-start, center);
+    gap: 8px;
+}
+.response_result_text{
+  @include text(18px, 400, $text);
+}
+.response_result{
+    padding: 4px 8px;
+    background: $white;
+    border-radius: 20px;
+    @include text(18px, 600, $green600);
+}
+.response_text_wrap{
+    padding: 8px 16px;
+}
+.response_negative, .response_positive{
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+.response_negative{
+  background: #f8e0e0;
+  @include text(16px, 500, $error);
+}
+.response_positive{
+    background: #c5f5e4;
+}
+.response_positive p{
+    @include text(16px, 500, $sucsses);
+}
+.response_negative p{
+    @include text(16px, 500, $error);
+}
+.next_exercise_btn{
+  padding: 12px 32px 11px 32px;
+  @include btn($pageBg, $green600, $green600);
+    &:hover{
+        color: $green;
+        border: 1px solid $green;
+    }
+}
+.response_positive,
+.response_negative {
+  display: none; 
+}
+
+.result_pop-up {
+  display: block;
+}

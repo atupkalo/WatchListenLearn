@@ -1,0 +1,408 @@
+[
+  {
+    "lesson name": "To be vs Do (verbs) / Present",
+    "lesson id": 1,
+    "lesson content": [
+      {
+        "instance": "we ready?",
+        "key": "are"
+      },
+      {
+        "instance": "we go now?",
+        "key": "do"
+      },
+      {
+        "instance": "I late?",
+        "key": "am"
+      },
+      {
+        "instance": "I late?",
+        "key": "am"
+      },
+      {
+        "instance": "Where it come from?",
+        "key": "does"
+      },
+      {
+        "instance": "What you think?",
+        "key": "do"
+      },
+      {
+        "instance": "we go now?",
+        "key": "do"
+      },
+      {
+        "instance": "we need this?",
+        "key": "do"
+      },
+      {
+        "instance": "you know her?",
+        "key": "do"
+      },
+      {
+        "instance": "it work?",
+        "key": "does"
+      },
+      {
+        "instance": "it work?",
+        "key": "does"
+      },
+      {
+        "instance": "Where they go?",
+        "key": "do"
+      },
+      {
+        "instance": "we go now?",
+        "key": "do"
+      },
+      {
+        "instance": "we play football?",
+        "key": "do"
+      },
+      {
+        "instance": "we play football?",
+        "key": "do"
+      },
+      {
+        "instance": "How you know?",
+        "key": "do"
+      },
+      {
+        "instance": "Where  you now?",
+        "key": "are"
+      },
+      {
+        "instance": "Where  you now?",
+        "key": "are"
+      },
+      {
+        "instance": "What you think?",
+        "key": "do"
+      },
+      {
+        "instance": "What they do?",
+        "key": "do"
+      },
+      {
+        "instance": "Who you meet?",
+        "key": "do"
+      },
+      {
+        "instance": "he work at the bank?",
+        "key": "does"
+      },
+      {
+        "instance": "Where they go?",
+        "key": "do"
+      },
+      {
+        "instance": "How he feel?",
+        "key": "does"
+      },
+      {
+        "instance": "Where he live?",
+        "key": "does"
+      },
+      {
+        "instance": "you ok?",
+        "key": "are"
+      },
+      {
+        "instance": "you want some?",
+        "key": "do"
+      },
+      {
+        "instance": "we go now?",
+        "key": "do"
+      },
+      {
+        "instance": "she know him?",
+        "key": "does"
+      },
+      {
+        "instance": "you tired?",
+        "key": "are"
+      },
+      {
+        "instance": "I need to come?",
+        "key": "do"
+      },
+      {
+        "instance": "What time it?",
+        "key": "is"
+      },
+      {
+        "instance": "Why you laugh?",
+        "key": "do"
+      },
+      {
+        "instance": "How old she?",
+        "key": "is"
+      },
+      {
+        "instance": "you ok?",
+        "key": "are"
+      },
+      {
+        "instance": "she know him?",
+        "key": "does"
+      },
+      {
+        "instance": "When she arrive?",
+        "key": "does"
+      },
+      {
+        "instance": "What you think?",
+        "key": "do"
+      },
+      {
+        "instance": "What your name?",
+        "key": "is"
+      },
+      {
+        "instance": "you want some?",
+        "key": "do"
+      },
+      {
+        "instance": "Who he call?",
+        "key": "does"
+      },
+      {
+        "instance": "it work?",
+        "key": "does"
+      },
+      {
+        "instance": "it work?",
+        "key": "does"
+      },
+      {
+        "instance": "Where you now?",
+        "key": "are"
+      },
+      {
+        "instance": "Where they go?",
+        "key": "do"
+      },
+      {
+        "instance": "When we leave?",
+        "key": "do"
+      },
+      {
+        "instance": "When it finish?",
+        "key": "does"
+      },
+      {
+        "instance": "it raining?",
+        "key": "is"
+      },
+      {
+        "instance": "she at school?",
+        "key": "is"
+      },
+      {
+        "instance": "Why she cry?",
+        "key": "does"
+      },
+      {
+        "instance": "you want some?",
+        "key": "do"
+      },
+      {
+        "instance": "it raining?",
+        "key": "is"
+      },
+      {
+        "instance": "it ok?",
+        "key": "is"
+      },
+      {
+        "instance": "Where you now?",
+        "key": "are"
+      },
+      {
+        "instance": "we go now?",
+        "key": "do"
+      },
+      {
+        "instance": "Why she cry?",
+        "key": "does"
+      },
+      {
+        "instance": "they happy?",
+        "key": "are"
+      },
+      {
+        "instance": "Who he call?",
+        "key": "does"
+      },
+      {
+        "instance": "How it work?",
+        "key": "does"
+      },
+      {
+        "instance": "you want some?",
+        "key": "do"
+      },
+      {
+        "instance": "we play football?",
+        "key": "do"
+      },
+      {
+        "instance": "they coming?",
+        "key": "are"
+      },
+      {
+        "instance": "I late?",
+        "key": "am"
+      },
+      {
+        "instance": "Why we wait?",
+        "key": "do"
+      },
+      {
+        "instance": "she know him?",
+        "key": "does"
+      },
+      {
+        "instance": "Why she cry?",
+        "key": "does"
+      },
+      {
+        "instance": "I late?",
+        "key": "am"
+      },
+      {
+        "instance": "How you know?",
+        "key": "do"
+      },
+      {
+        "instance": "What you think?",
+        "key": "do"
+      },
+      {
+        "instance": "When it start?",
+        "key": "does"
+      },
+      {
+        "instance": "you want some?",
+        "key": "do"
+      },
+      {
+        "instance": "it work?",
+        "key": "does"
+      },
+      {
+        "instance": "you want some?",
+        "key": "do"
+      },
+      {
+        "instance": "How he feel?",
+        "key": "does"
+      },
+      {
+        "instance": "What you think?",
+        "key": "do"
+      },
+      {
+        "instance": "it make sense?",
+        "key": "does"
+      },
+      {
+        "instance": "you understand?",
+        "key": "do"
+      },
+      {
+        "instance": "Why he angry?",
+        "key": "is"
+      },
+      {
+        "instance": "I late?",
+        "key": "am"
+      },
+      {
+        "instance": "What you think?",
+        "key": "do"
+      },
+      {
+        "instance": "What your job?",
+        "key": "is"
+      },
+      {
+        "instance": "they know the answer?",
+        "key": "do"
+      },
+      {
+        "instance": "she know him?",
+        "key": "does"
+      },
+      {
+        "instance": "Who he call?",
+        "key": "does"
+      },
+      {
+        "instance": "I late?",
+        "key": "am"
+      },
+      {
+        "instance": "you know her?",
+        "key": "do"
+      },
+      {
+        "instance": "Where we start?",
+        "key": "do"
+      },
+      {
+        "instance": "When it finish?",
+        "key": "does"
+      },
+      {
+        "instance": "Who he call?",
+        "key": "does"
+      },
+      {
+        "instance": "When it start?",
+        "key": "does"
+      },
+      {
+        "instance": "When it finish?",
+        "key": "does"
+      },
+      {
+        "instance": "you have a minute?",
+        "key": "do"
+      },
+      {
+        "instance": "How he feel?",
+        "key": "does"
+      },
+      {
+        "instance": "I need to come?",
+        "key": "do"
+      },
+      {
+        "instance": "Who they talk to?",
+        "key": "do"
+      },
+      {
+        "instance": "they like pizza?",
+        "key": "do"
+      },
+      {
+        "instance": "I need to come?",
+        "key": "do"
+      },
+      {
+        "instance": "How he feel?",
+        "key": "does"
+      },
+      {
+        "instance": "you understand?",
+        "key": "do"
+      },
+      {
+        "instance": "she have a car?",
+        "key": "does"
+      }
+    ]
+  }
+]

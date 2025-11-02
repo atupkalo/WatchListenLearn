@@ -1,0 +1,14 @@
+@import "../../styles/system";
+
+.filters{
+    @include flex(row, flex-start, center);
+    position: relative;
+    width: 100%;
+    padding: 8px 24px;
+    margin-top: 16px;
+    border-radius: 50px 0 0 50px;
+    background: $primary;
+    gap: 32px;
+    margin-bottom: 40px;
+}
+

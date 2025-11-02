@@ -1,0 +1,76 @@
+@import "../../styles/system";
+
+.side-menu {
+  background: $red700;
+  min-width: 240px;
+  height: 100%;
+  padding: 32px 0 0 16px;
+
+  .menu {
+    @include flex(column, flex-start, flex-start);
+    gap: 24px;
+  }
+
+  .menu-item-wrap {
+    @include flex(row, flex-start, center);
+    gap: 8px;
+  }
+
+  .menu-item {
+    @include title(18px, 400, $redBg300);
+  }
+
+  .menu-item-active {
+    color: $white !important;
+    font-weight: 600;
+  }
+}
+.mobile{
+    display: none;
+}
+
+/* Desktop menu only visible above 678px */
+.side-menu.desktop {
+  display: block;
+}
+
+@media (max-width: 678px) {
+  .side-menu.desktop {
+    display: none;
+  }
+
+  .mobile-open {
+    position: absolute;
+    top: 100px;
+    right: -42px;
+    z-index: 10;
+    padding: 6px 12px 4px 6px;
+    background: $green600;
+    border-radius: 0 30px 30px 0;
+    box-shadow: 4px 0 7px gray;
+  }
+
+  .side-menu.mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -240px;
+    width: 240px;
+    height: 100vh;
+    background: $red700;
+    transition: left 0.3s ease;
+    z-index: 100;
+    padding: 32px 16px;
+
+    .mobile-close {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      cursor: pointer;
+    }
+  }
+
+  .side-menu.mobile.show {
+    left: 0;
+  }
+}

@@ -1,0 +1,33 @@
+@import "../../styles/system";
+.lessons{
+  @include flex(row, flex-start, center);
+  gap: 30px;
+}
+.lesson{
+    position: relative;
+    width: 240px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #ffffff;
+    transition: .3s;
+    &:hover{
+        box-shadow:  0 0 12px rgba(0, 0, 0, 0.2);
+    }
+}
+.type-icon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.thumbnail{
+    min-height: 120px;
+    @include bg("/img/flag.jpg");
+}
+.leson-info-wrap{
+  padding: 16px;
+  @include flex(column, center, flex-start);
+  gap: 8px;
+}
+.lesson-name, .lesson-duration, .lesson-size{
+    @include text(16px, 400, $text);
+}

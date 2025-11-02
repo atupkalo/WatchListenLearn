@@ -1,0 +1,410 @@
+[
+  {
+    "lesson name": "To be vs Do. Beginner",
+    "level": "A1",
+    "lesson id": 1,
+    "lesson_desc": "Fill out the blank with your answer and click Next. If the answer is correct, you will get a point, and the percentage will increase. To pass and move to the next exercise, you need to score at least 95%.",
+    "lesson content": [
+      {
+        "instance": "_____ we ready?",
+        "key": "are"
+      },
+      {
+        "instance": "_____ we go now?",
+        "key": "do"
+      },
+      {
+        "instance": "_____ I late?",
+        "key": "am"
+      },
+      {
+        "instance": "Where _____ you?",
+        "key": "are"
+      },
+      {
+        "instance": "Where _____ it come from?",
+        "key": "does"
+      },
+      {
+        "instance": "What _____ you think?",
+        "key": "do"
+      },
+      {
+        "instance": "What game _____ you play?",
+        "key": "do"
+      },
+      {
+        "instance": "_____ we need this?",
+        "key": "do"
+      },
+      {
+        "instance": "_____ you know her?",
+        "key": "do"
+      },
+      {
+        "instance": "_____ it work?",
+        "key": "does"
+      },
+      {
+        "instance": "Why _____ you here?",
+        "key": "are"
+      },
+      {
+        "instance": "Where _____ they live?",
+        "key": "do"
+      },
+      {
+        "instance": "_____ your house big?",
+        "key": "is"
+      },
+      {
+        "instance": "_____ he play football?",
+        "key": "does"
+      },
+      {
+        "instance": "_____ they play video games?",
+        "key": "do"
+      },
+      {
+        "instance": "How _____ you know?",
+        "key": "do"
+      },
+      {
+        "instance": "Where ____ you now?",
+        "key": "are"
+      },
+      {
+        "instance": "Where ____ she now?",
+        "key": "is"
+      },
+      {
+        "instance": "What _____ you think?",
+        "key": "do"
+      },
+      {
+        "instance": "What _____ they do?",
+        "key": "do"
+      },
+      {
+        "instance": "Who _____ your friend?",
+        "key": "is"
+      },
+      {
+        "instance": "_____ he work at the bank?",
+        "key": "does"
+      },
+      {
+        "instance": "Where _____ you live?",
+        "key": "do"
+      },
+      {
+        "instance": "How _____ he feel?",
+        "key": "does"
+      },
+      {
+        "instance": "Where _____ he live?",
+        "key": "does"
+      },
+      {
+        "instance": "_____ you ok?",
+        "key": "are"
+      },
+      {
+        "instance": "_____ you want some?",
+        "key": "do"
+      },
+      {
+        "instance": "Why_____ you angry?",
+        "key": "are"
+      },
+      {
+        "instance": "_____ she know him?",
+        "key": "does"
+      },
+      {
+        "instance": "_____ you tired?",
+        "key": "are"
+      },
+      {
+        "instance": "_____ I need to come?",
+        "key": "do"
+      },
+      {
+        "instance": "What time _____ it?",
+        "key": "is"
+      },
+      {
+        "instance": "Why _____ you laugh?",
+        "key": "do"
+      },
+      {
+        "instance": "How old _____ she?",
+        "key": "is"
+      },
+      {
+        "instance": "_____ you ok?",
+        "key": "are"
+      },
+      {
+        "instance": "_____ she know this?",
+        "key": "does"
+      },
+      {
+        "instance": "When _____ she arrive?",
+        "key": "does"
+      },
+      {
+        "instance": "when _____ you finish?",
+        "key": "do"
+      },
+      {
+        "instance": "What _____ your goal?",
+        "key": "is"
+      },
+      {
+        "instance": " _____ she like that movie?",
+        "key": "does"
+      },
+      {
+        "instance": "Who _____ he call?",
+        "key": "does"
+      },
+      {
+        "instance": "_____ it work?",
+        "key": "does"
+      },
+      {
+        "instance": "Why it ____ not work?",
+        "key": "does"
+      },
+      {
+        "instance": "What ____ your favorite movie?",
+        "key": "is"
+      },
+      {
+        "instance": "Where _____ they like to go?",
+        "key": "do"
+      },
+      {
+        "instance": "When _____ we leave?",
+        "key": "do"
+      },
+      {
+        "instance": "When _____ it end?",
+        "key": "does"
+      },
+      {
+        "instance": "_____ it raining?",
+        "key": "is"
+      },
+      {
+        "instance": "____ she at school?",
+        "key": "is"
+      },
+      {
+        "instance": "Why _____ she cry?",
+        "key": "does"
+      },
+      {
+        "instance": "_____ you want some water?",
+        "key": "do"
+      },
+      {
+        "instance": "What _____ the weather today?",
+        "key": "is"
+      },
+      {
+        "instance": "_____ this ok?",
+        "key": "is"
+      },
+      {
+        "instance": "What ____ this?",
+        "key": "is"
+      },
+      {
+        "instance": "_____ we go now?",
+        "key": "do"
+      },
+      {
+        "instance": "Why _____ you cry?",
+        "key": "do"
+      },
+      {
+        "instance": "Why _____ you upset?",
+        "key": "are"
+      },
+      {
+        "instance": "Who _____ he hate?",
+        "key": "does"
+      },
+      {
+        "instance": "where _____ your car?",
+        "key": "is"
+      },
+      {
+        "instance": "_____ you have any money?",
+        "key": "do"
+      },
+      {
+        "instance": "_____ you watch football?",
+        "key": "do"
+      },
+      {
+        "instance": "_____ they in Denver?",
+        "key": "are"
+      },
+      {
+        "instance": "_____ I right?",
+        "key": "am"
+      },
+      {
+        "instance": "Why _____ we wait?",
+        "key": "do"
+      },
+      {
+        "instance": "_____ she happy?",
+        "key": "is"
+      },
+      {
+        "instance": "Why _____ he late?",
+        "key": "is"
+      },
+      {
+        "instance": "What_____ you phone number?",
+        "key": "is"
+      },
+      {
+        "instance": "How long _____ does it take?",
+        "key": "does"
+      },
+      {
+        "instance": "How much money _____ you have?",
+        "key": "do"
+      },
+      {
+        "instance": "How much _____ you want for it?",
+        "key": "do"
+      },
+      {
+        "instance": "How many freinds_____ you have?",
+        "key": "do"
+      },
+      {
+        "instance": "It ____ a good price",
+        "key": "is"
+      },
+      {
+        "instance": "I _____ not happy?",
+        "key": "am"
+      },
+      {
+        "instance": "You ___ late",
+        "key": "are"
+      },
+      {
+        "instance": "What _____ you think?",
+        "key": "do"
+      },
+      {
+        "instance": "You ____ always upset",
+        "key": "are"
+      },
+      {
+        "instance": "Nothing ___ important",
+        "key": "is"
+      },
+      {
+        "instance": "Everything __ ok?",
+        "key": "is"
+      },
+      {
+        "instance": "Those cars ___ expensive",
+        "key": "are"
+      },
+      {
+        "instance": "What _____ you say?",
+        "key": "do"
+      },
+      {
+        "instance": "What ____ your job?",
+        "key": "is"
+      },
+      {
+        "instance": "_____ they know the answer?",
+        "key": "do"
+      },
+      {
+        "instance": "_____ she understand you?",
+        "key": "does"
+      },
+      {
+        "instance": "Who _____ he tell?",
+        "key": "does"
+      },
+      {
+        "instance": "They ___ late?",
+        "key": "are"
+      },
+      {
+        "instance": "_____ you know them?",
+        "key": "do"
+      },
+      {
+        "instance": "Where _____ we start?",
+        "key": "do"
+      },
+      {
+        "instance": "This ___ my car?",
+        "key": "is"
+      },
+      {
+        "instance": "These _____ my friends?",
+        "key": "are"
+      },
+      {
+        "instance": "When _____ movie start?",
+        "key": "does"
+      },
+      {
+        "instance": "They _____ not at work?",
+        "key": "are"
+      },
+      {
+        "instance": "_____ you have a minute?",
+        "key": "do"
+      },
+      {
+        "instance": " _____ you have time?",
+        "key": "do"
+      },
+      {
+        "instance": "Monday _____ the longest day?",
+        "key": "is"
+      },
+      {
+        "instance": "This _____ my favorite city?",
+        "key": "is"
+      },
+      {
+        "instance": "_____ they like pizza?",
+        "key": "do"
+      },
+      {
+        "instance": "_____ I need to come?",
+        "key": "do"
+      },
+      {
+        "instance": "How _____ he feel?",
+        "key": "does"
+      },
+      {
+        "instance": "_____ you my friend?",
+        "key": "are"
+      },
+      {
+        "instance": "_____ she have a car?",
+        "key": "does"
+      }
+    ]
+  }
+]

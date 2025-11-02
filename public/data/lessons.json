@@ -1,0 +1,38 @@
+[
+  {
+    "id": "lesson1",
+    "name": "Truck driving 1",
+    "description": "Learn about truck driving",
+    "type": "1",
+    "duration": "2:25",
+    "length": "Middle",
+    "path": "/audio/lesson1.mp3",
+    "thumbnail": "/img/flag.jpg",
+    "text": "Lesson text goes here",
+    "key": "Key points go here"
+  },
+  {
+    "id": "lesson2",
+    "name": "Truck driving 22",
+    "description": "Learn about truck driving",
+    "type": "1",
+    "duration": "2:25",
+    "length": "Middle",
+    "path": "/audio/lesson2.mp3",
+    "thumbnail": "/img/flag.jpg",
+    "text": "Lesson text goes here",
+    "key": "Key points go here"
+  },
+  {
+    "id": "lesson3",
+    "name": "Truck driving 333",
+    "description": "Learn about truck driving",
+    "type": "1",
+    "duration": "2:25",
+    "length": "Middle",
+    "path": "/audio/lesson3.mp3",
+    "thumbnail": "/img/flag.jpg",
+    "text": "Lesson text goes here",
+    "key": "Key points go here"
+  }
+]

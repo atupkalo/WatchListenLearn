@@ -1,0 +1,52 @@
+@import "../../styles/system";
+
+.exercise-item{
+  @include flex(row, flex-start, center);
+  gap: 8px;
+  padding: 16px 24px;
+  background: $white;
+  border-radius: 20px;
+}
+.exercise-item input{
+    height: 40px;
+    font-size: 16px;
+    &:focus {
+        border: 2px solid $green;
+        outline: none; 
+      }
+}
+
+.exerices-body{
+   background: $white;
+   border-radius: 20px;
+   padding: 16px 32px;
+   margin-bottom: 20px;
+}
+.exercise-content{
+  @include text(20px, 500);
+}
+.exercise-next-wrap{
+    @include flex(row, flex-end, center);
+    gap: 4px;
+    cursor: pointer;
+    &:hover{
+        opacity: .7;
+    }
+}
+.exercise-next{
+  @include text(18px, 500, $red);
+}
+.exercies-metrix-wrap{
+ @include flex(row, flex-start, center);
+ gap: 16px;
+}
+.metrix-correct{
+    color: #037e20;
+}
+.metrix-wrong{
+    color: #a70303; 
+}
+.metrix-data{
+    font-weight: 600;
+
+}

@@ -1,0 +1,610 @@
+[
+  {
+    "lesson name": "To be vs Do. Advance",
+    "level": "A1+",
+    "lesson id": 2,
+    "Lesson desc": "Translate the Ukrainian phrases and write them into the blank spaces, then click NEXT  If the answer is correct, you will get a point, and the percentage will increase. To pass and move to the next exercise, you need to score at least 95%.",
+    "lesson content": [
+      {
+        "instance": "What ____ your job?",
+        "key": "is",
+        "translation": "Яка у тебе робота?",
+        "state": 1
+      },
+      {
+        "instance": "Where ____ you now?",
+        "key": "are",
+        "translation": "Де ти зараз?",
+        "state": 1
+      },
+      {
+        "instance": "What time ____ you wake up?",
+        "key": "do",
+        "translation": "О котрій ти прокидаєшся?",
+        "state": 1
+      },
+      {
+        "instance": "____ you tired today?",
+        "key": "are",
+        "translation": "Ти втомився сьогодні?",
+        "state": 1
+      },
+      {
+        "instance": "____ you go to school or work?",
+        "key": "do",
+        "translation": "Ти ходиш до школи чи на роботу?",
+        "state": 1
+      },
+      {
+        "instance": "____ your friend funny?",
+        "key": "is",
+        "translation": "Твій друг смішний?",
+        "state": 1
+      },
+      {
+        "instance": "She ____ tired.",
+        "key": "is",
+        "translation": "Вона втомилася.",
+        "state": 1
+      },
+      {
+        "instance": "They____play football every day.",
+        "key": "don’t",
+        "translation": "Вони грають у футбол щодня.",
+        "state": 1
+      },
+      {
+        "instance": "I ____ at school now.",
+        "key": "am",
+        "translation": "Я зараз у школі.",
+        "state": 1
+      },
+      {
+        "instance": "We ____ live in Kyiv.",
+        "key": "don’t",
+        "translation": "Ми живемо в Києві.",
+        "state": 1
+      },
+      {
+        "instance": "This ____ my book.",
+        "key": "is",
+        "translation": "Це моя книга.",
+        "state": 1
+      },
+      {
+        "instance": "That ____ their house.",
+        "key": "is",
+        "translation": "То їхній будинок.",
+        "state": 1
+      },
+      {
+        "instance": "These ____ my shoes.",
+        "key": "are",
+        "translation": "Це мої черевики.",
+        "state": 1
+      },
+      {
+        "instance": "Those ____ his friends.",
+        "key": "are",
+        "translation": "То його друзі.",
+        "state": 1
+      },
+      {
+        "instance": "He ____ work yesterday.",
+        "key": "didn’t",
+        "translation": "Він працював учора.",
+        "state": 1
+      },
+      {
+        "instance": "She ____ happy last night.",
+        "key": "wasn’t",
+        "translation": "Вона була щаслива вчора ввечері.",
+        "state": 1
+      },
+      {
+        "instance": "They ____ at home last weekend.",
+        "key": "were",
+        "translation": "Вони були вдома минулих вихідних.",
+        "state": 1
+      },
+      {
+        "instance": "We ____ watch the movie yesterday.",
+        "key": "didn’t",
+        "translation": "Ми дивилися фільм учора.",
+        "state": 1
+      },
+      {
+        "instance": "I ____ tired yesterday.",
+        "key": "was",
+        "translation": "Я був втомлений учора.",
+        "state": 1
+      },
+      {
+        "instance": "You ____ at the meeting last week.",
+        "key": "were",
+        "translation": "Ти був на зустрічі минулого тижня.",
+        "state": 1
+      },
+      {
+        "instance": "What ____ you do tomorrow?",
+        "key": "will",
+        "translation": "Що ти робитимеш завтра?",
+        "state": 1
+      },
+      {
+        "instance": "Where ____ they go next week?",
+        "key": "will",
+        "translation": "Куди вони підуть наступного тижня?",
+        "state": 1
+      },
+      {
+        "instance": "She ____ be here tomorrow.",
+        "key": "will",
+        "translation": "Вона буде тут завтра.",
+        "state": 1
+      },
+      {
+        "instance": "They ____ visit us next month.",
+        "key": "will",
+        "translation": "Вони відвідають нас наступного місяця.",
+        "state": 1
+      },
+      {
+        "instance": "I ____ help you later.",
+        "key": "will",
+        "translation": "Я допоможу тобі пізніше.",
+        "state": 1
+      },
+      {
+        "instance": "He ____ come to the party.",
+        "key": "will",
+        "translation": "Він прийде на вечірку.",
+        "state": 1
+      },
+      {
+        "instance": "We ____ play football tomorrow.",
+        "key": "will",
+        "translation": "Ми гратимемо у футбол завтра.",
+        "state": 1
+      },
+      {
+        "instance": "They ____  go to school today.",
+        "key": "don’t",
+        "translation": "Вони не підуть до школи сьогодні.",
+        "state": 1
+      },
+      {
+        "instance": "I ____ like this movie.",
+        "key": "don't",
+        "translation": "Мені не подобається цей фільм.",
+        "state": 0
+      },
+      {
+        "instance": "She ____ understand.",
+        "key": "doesn’t",
+        "translation": "Вона не розуміє.",
+        "state": 1
+      },
+      {
+        "instance": "He ____ not tired.",
+        "key": "is",
+        "translation": "Він не втомився.",
+        "state": 1
+      },
+      {
+        "instance": "We ____ not ready.",
+        "key": "are",
+        "translation": "Ми не готові.",
+        "state": 1
+      },
+      {
+        "instance": "They ____ not happy.",
+        "key": "are",
+        "translation": "Вони не щасливі.",
+        "state": 1
+      },
+      {
+        "instance": "I ____ not at home.",
+        "key": "am",
+        "translation": "Я не вдома.",
+        "state": 1
+      },
+      {
+        "instance": "This ____ not my problem.",
+        "key": "is",
+        "translation": "Це не моя проблема.",
+        "state": 1
+      },
+      {
+        "instance": "That ____ not true.",
+        "key": "is",
+        "translation": "Це неправда.",
+        "state": 1
+      },
+      {
+        "instance": "These ____ not clean.",
+        "key": "are",
+        "translation": "Це не чисті.",
+        "state": 1
+      },
+      {
+        "instance": "Those ____ not broken.",
+        "key": "are",
+        "translation": "То не зламані.",
+        "state": 1
+      },
+      {
+        "instance": "___ you go to the store?",
+        "key": "do",
+        "translation": "Чи ходив ти до магазину?",
+        "state": 1
+      },
+      {
+        "instance": "___ she the pass the test yesterday?",
+        "key": "did",
+        "translation": "Чи склала вона вчора тест?",
+        "state": 1
+      },
+      {
+        "instance": "Did they ____ last night?",
+        "key": "call",
+        "translation": "Чи телефонували вони вчора ввечері?",
+        "state": 1
+      },
+      {
+        "instance": "___ you come tomorrow?",
+        "key": "will",
+        "translation": "Чи прийдеш ти завтра?",
+        "state": 1
+      },
+      {
+        "instance": "Will she ____ helpful?",
+        "key": "be",
+        "translation": "Чи буде вона корисна?",
+        "state": 1
+      },
+      {
+        "instance": "___ they win the game tomorrow?",
+        "key": "win",
+        "translation": "Чи виграють вони завтра гру?",
+        "state": 1
+      },
+      {
+        "instance": "What ____ you doing?",
+        "key": "are",
+        "translation": "Що ти робиш?",
+        "state": 1
+      },
+      {
+        "instance": "Where ____ he working?",
+        "key": "is",
+        "translation": "Де він працює?",
+        "state": 1
+      },
+      {
+        "instance": "Why ____ they laughing?",
+        "key": "are",
+        "translation": "Чому вони сміються?",
+        "state": 1
+      },
+      {
+        "instance": "When ____ we leaving?",
+        "key": "are",
+        "translation": "Коли ми підемо?",
+        "state": 1
+      },
+      {
+        "instance": "Who ____ calling?",
+        "key": "is",
+        "translation": "Хто дзвонить?",
+        "state": 1
+      },
+      {
+        "instance": "They ____ not happy.",
+        "key": "are",
+        "translation": "Вони не щасливі.",
+        "state": 1
+      },
+      {
+        "instance": "She ____ tired.",
+        "key": "is",
+        "translation": "Вона втомилася.",
+        "state": 1
+      },
+      {
+        "instance": "She ____ be here tomorrow.",
+        "key": "will",
+        "translation": "Вона буде тут завтра.",
+        "state": 1
+      },
+      {
+        "instance": "We ____ watch the movie yesterday.",
+        "key": "did",
+        "translation": "Ми дивилися фільм учора.",
+        "state": 1
+      },
+      {
+        "instance": "That ____ their house.",
+        "key": "is",
+        "translation": "То їхній будинок.",
+        "state": 1
+      },
+      {
+        "instance": "She ____ be here tomorrow.",
+        "key": "will",
+        "translation": "Вона буде тут завтра.",
+        "state": 1
+      },
+      {
+        "instance": "We ____ watch the movie yesterday.",
+        "key": "did",
+        "translation": "Ми дивилися фільм учора.",
+        "state": 1
+      },
+      {
+        "instance": "They ____ not go to school today.",
+        "key": "do",
+        "translation": "Вони не підуть до школи сьогодні.",
+        "state": 1
+      },
+      {
+        "instance": " She ____ help us?",
+        "key": "won’t",
+        "translation": "Вона нам не допоможе?",
+        "state": 1
+      },
+      {
+        "instance": "That ____ not true.",
+        "key": "is",
+        "translation": "Це неправда.",
+        "state": 1
+      },
+      {
+        "instance": "Those ____ his friends.",
+        "key": "are",
+        "translation": "То його друзі.",
+        "state": 1
+      },
+      {
+        "instance": "We ____ watch the movie yesterday.",
+        "key": "didn’t",
+        "translation": "Ми не дивилися фільм учора.",
+        "state": 1
+      },
+      {
+        "instance": "This ____ not my problem.",
+        "key": "is",
+        "translation": "Це не моя проблема.",
+        "state": 1
+      },
+      {
+        "instance": "They ____ at home last weekend.",
+        "key": "were",
+        "translation": "Вони були вдома минулих вихідних.",
+        "state": 1
+      },
+      {
+        "instance": "We ____ not ready.",
+        "key": "are",
+        "translation": "Ми не готові.",
+        "state": 1
+      },
+      {
+        "instance": "They ____play football every day.",
+        "key": "don’t",
+        "translation": "Вони не грають у футбол щодня.",
+        "state": 1
+      },
+      {
+        "instance": "I ____ at school now.",
+        "key": "am",
+        "translation": "Я зараз у школі.",
+        "state": 1
+      },
+      {
+        "instance": "She ____ tired.",
+        "key": "is",
+        "translation": "Вона втомилася.",
+        "state": 1
+      },
+      {
+        "instance": "She ____  scared.",
+        "key": "is",
+        "translation": "Вона налякана.",
+        "state": 1
+      },
+      {
+        "instance": "This ____ not my problem.",
+        "key": "is",
+        "translation": "Це не моя проблема.",
+        "state": 1
+      },
+      {
+        "instance": "What time ____ you wake up?",
+        "key": "do",
+        "translation": "О котрій ти прокидаєшся?",
+        "state": 1
+      },
+      {
+        "instance": "They ____ at home last weekend.",
+        "key": "were",
+        "translation": "Вони були вдома минулих вихідних.",
+        "state": 1
+      },
+      {
+        "instance": "They ____ not at home last weekend.",
+        "key": "were",
+        "translation": "Вони були вдома минулих вихідних.",
+        "state": 1
+      },
+      {
+        "instance": "He ____ not tired.",
+        "key": "is",
+        "translation": "Він не втомився.",
+        "state": 1
+      },
+      {
+        "instance": "That ____ not true.",
+        "key": "is",
+        "translation": "Це неправда.",
+        "state": 1
+      },
+      {
+        "instance": "Where ____ you now?",
+        "key": "are",
+        "translation": "Де ти зараз?",
+        "state": 1
+      },
+      {
+        "instance": "We ____ play football tomorrow.",
+        "key": "will",
+        "translation": "Ми гратимемо у футбол завтра.",
+        "state": 1
+      },
+      {
+        "instance": "They ____ at home last weekend.",
+        "key": "were",
+        "translation": "Вони були вдома минулих вихідних.",
+        "state": 1
+      },
+      {
+        "instance": "___ you go to the store last night?",
+        "key": "did",
+        "translation": "Чи ходив ти до магазину минулої ночі?",
+        "state": 1
+      },
+      {
+        "instance": "___ you leave a massage?",
+        "key": "did",
+        "translation": "Чи ти залишив повідомлення?",
+        "state": 1
+      },
+      {
+        "instance": "What time ____ you leave?",
+        "key": "do",
+        "translation": "О котрій годині ти від’єзжаеш ?",
+        "state": 1
+      },
+      {
+        "instance": "We ____ not ready.",
+        "key": "are",
+        "translation": "Ми не готові.",
+        "state": 1
+      },
+      {
+        "instance": "That ____ not true.",
+        "key": "is",
+        "translation": "То неправда.",
+        "state": 1
+      },
+      {
+        "instance": "They ____ at home last weekend.",
+        "key": "were",
+        "translation": "Вони були вдома минулих вихідних.",
+        "state": 1
+      },
+      {
+        "instance": "They ____ not go to school today.",
+        "key": "do",
+        "translation": "Вони не підуть до школи сьогодні.",
+        "state": 1
+      },
+      {
+        "instance": "Those ____ his friends.",
+        "key": "are",
+        "translation": "То його друзі.",
+        "state": 1
+      },
+      {
+        "instance": "We ____ not ready.",
+        "key": "are",
+        "translation": "Ми не готові.",
+        "state": 1
+      },
+      {
+        "instance": "We ____ live in Kyiv.",
+        "key": "do",
+        "translation": "Ми живемо в Києві.",
+        "state": 1
+      },
+      {
+        "instance": "We ____ not ready.",
+        "key": "are",
+        "translation": "Ми не готові.",
+        "state": 1
+      },
+      {
+        "instance": "We ____ not ready.",
+        "key": "are",
+        "translation": "Ми не готові.",
+        "state": 1
+      },
+      {
+        "instance": "What ____ you do tomorrow?",
+        "key": "will",
+        "translation": "Що ти робитимеш завтра?",
+        "state": 1
+      },
+      {
+        "instance": "She ____ tired.",
+        "key": "is",
+        "translation": "Вона втомилася.",
+        "state": 1
+      },
+      {
+        "instance": "They ____ not go to school today.",
+        "key": "do",
+        "translation": "Вони не підуть до школи сьогодні.",
+        "state": 1
+      },
+      {
+        "instance": "____ you go to school or work?",
+        "key": "do",
+        "translation": "Ти ходиш до школи чи на роботу?",
+        "state": 1
+      },
+      {
+        "instance": "They ____ visit us next month.",
+        "key": "will",
+        "translation": "Вони відвідають нас наступного місяця.",
+        "state": 1
+      },
+      {
+        "instance": "She ____ tired.",
+        "key": "is",
+        "translation": "Вона втомилася.",
+        "state": 1
+      },
+      {
+        "instance": "You ____ at the meeting last week.",
+        "key": "were",
+        "translation": "Ти був на зустрічі минулого тижня.",
+        "state": 1
+      },
+      {
+        "instance": "Why ____ they laughing?",
+        "key": "are",
+        "translation": "Чому вони сміються?",
+        "state": 1
+      },
+      {
+        "instance": "This ____ my book.",
+        "key": "is",
+        "translation": "Це моя книга.",
+        "state": 1
+      },
+      {
+        "instance": "These ____ not clean.",
+        "key": "are",
+        "translation": "Це не чисті.",
+        "state": 1
+      },
+      {
+        "instance": "These ____ my shoes.",
+        "key": "are",
+        "translation": "Це мої черевики.",
+        "state": 1
+      }
+    ]
+  }
+]
