@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import ExerciseBox from '../../components/ExerciseBox/ExerciseBox';
 import BeVsDo from '../../components/Exercises/AllExercises/BeVsDo';
+import BePresent from '../../components/Exercises/AllExercises/BePresent';
 import BeVsDoAdvance from '../../components/Exercises/AllExercises/BeVsDoAdvance';
 import BeVsDoTranslate from '../../components/Exercises/AllExercises/BeVsDoTranslate';
 import BeVsDoListenAndSay from '../../components/Exercises/AllExercises/BeVsDoListenAndSay';
@@ -13,11 +14,12 @@ export default function GrammarPage() {
   const [activeTab, setActiveTab] = useState('lessons');
 
   const exercises = [
-    { id: 1, BodyComponent: BeVsDo },
-    { id: 2, BodyComponent: BeVsDoAdvance },
-    { id: 3, BodyComponent: BeVsDoTranslate },
-    { id: 4, BodyComponent: BeVsDoListenAndSay },
-    { id: 5, BodyComponent: BeVsDoListenAndWrite },
+    { id: 1, BodyComponent: BePresent },
+    { id: 2, BodyComponent: BeVsDo },
+    { id: 3, BodyComponent: BeVsDoAdvance },
+    { id: 4, BodyComponent: BeVsDoTranslate },
+    { id: 5, BodyComponent: BeVsDoListenAndSay },
+    { id: 6, BodyComponent: BeVsDoListenAndWrite },
   ];
 
   return (
