@@ -1,0 +1,100 @@
+[
+  {
+    "lesson name": "Percy Jackson",
+    "lesson url": "https://player.vimeo.com/video/1133632648",
+    "lesson thumbnail": "/img/pj.jpg",
+    "level": "B1",
+    "duration": "Midium",
+    "lesson id": 2,
+    "lesson desc": "some description",
+    "lesson script": [
+      "There are all sorts of schools of thought about what drives that kind of bullying. Childhood trauma, feelings of inadequacy...",
+      "Look, I get that Nancy has issues, I'm just getting tired of her taking them out on me. I feel like… maybe it's time to do something about it.",
+      "You could make an appointment to see Mr. Kane, he's really good at talking...",
+      "I was thinking more like shoving Nancy in the nearest dumpster.",
+      "Oh, no. No, no, no, no, no, no, no. No, if there's one thing I know about bullies, it is that you should never, ever stand up to them.",
+      "That doesn't sound right.",
+      "Look, I know this place is hard for people like us. But we're not gonna be here forever. There are better places out there.",
+      "Oops.",
+      "Percy…!",
+      "No, don’t."
+    ],
+    "lesson key": [
+      {
+        "line": "1",
+        "script": "There are all sorts of schools of thought about what drives that kind of bullying. Childhood trauma, feelings of inadequacy...",
+        "translation": "Існує багато різних думок про те, що викликає таке знущання. Дитячі травми, почуття неповноцінності…",
+        "script-key": [
+          {
+            "key-word": "schools of thought",
+            "key-explanation": "Вираз 'school of thought' означає певну філософію або підхід, який поділяє група людей. Це спосіб мислення або набір ідей щодо конкретної теми."
+          }
+        ]
+      },
+      {
+        "line": "2",
+        "script": "Look, I get that Nancy has issues, I'm just getting tired of her taking them out on me. I feel like… maybe it's time to do something about it.",
+        "translation": "Слухай, я розумію, що у Ненсі є свої проблеми, але мені набридло, що вона зривається на мені. Я відчуваю… може, час щось із цим зробити.",
+        "script-key": [
+          {
+            "key-word": "to take out on",
+            "key-explanation": "Фразове дієслово 'take out on' означає 'виміщати злість або роздратування на когось'."
+          }
+        ]
+      },
+      {
+        "line": "3",
+        "script": "You could make an appointment to see Mr. Kane, he's really good at talking...",
+        "translation": "Ти можеш записатися на прийом до містера Кейна, він справді вміє розмовляти…",
+        "script-key": []
+      },
+      {
+        "line": "4",
+        "script": "I was thinking more like shoving Nancy in the nearest dumpster.",
+        "translation": "Я думав швидше про те, щоб запхати Ненсі в найближчий смітник.",
+        "script-key": []
+      },
+      {
+        "line": "5",
+        "script": "Oh, no. No, no, no, no, no, no, no. No, if there's one thing I know about bullies, it is that you should never, ever stand up to them.",
+        "translation": "О, ні. Ні, ні, ні, ні, ні, ні, ні. Якщо я щось і знаю про хуліганів, то це те, що ніколи не можна їм протистояти.",
+        "script-key": [
+          {
+            "key-word": "stand up to",
+            "key-explanation": "Фразове дієслово 'stand up to' означає 'протистояти' або 'вистояти проти когось'."
+          }
+        ]
+      },
+      {
+        "line": "6",
+        "script": "That doesn't sound right.",
+        "translation": "Це звучить неправильно.",
+        "script-key": []
+      },
+      {
+        "line": "7",
+        "script": "Look, I know this place is hard for people like us. But we're not gonna be here forever. There are better places out there.",
+        "translation": "Слухай, я знаю, що це місце непросте для таких, як ми. Але ми не будемо тут вічно. Є кращі місця там, за межами.",
+        "script-key": []
+      },
+      {
+        "line": "8",
+        "script": "Oops.",
+        "translation": "Ой!",
+        "script-key": []
+      },
+      {
+        "line": "9",
+        "script": "Percy…!",
+        "translation": "Персі…!",
+        "script-key": []
+      },
+      {
+        "line": "10",
+        "script": "No, don’t.",
+        "translation": "Ні, не треба!",
+        "script-key": []
+      }
+    ]
+  }
+]

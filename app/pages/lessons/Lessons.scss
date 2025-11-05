@@ -1,9 +1,9 @@
 @import "../../styles/system";
-.lessons{
+.single-lessons-list{
   @include flex(row, flex-start, center);
   gap: 30px;
 }
-.lesson{
+.single-lesson{
     position: relative;
     width: 240px;
     border-radius: 20px;
@@ -19,15 +19,18 @@
     top: 10px;
     left: 10px;
 }
-.thumbnail{
+.sibgle-lesson-thumbnail{
     min-height: 120px;
     @include bg("/img/flag.jpg");
 }
-.leson-info-wrap{
+.single-lesson-info-wrap{
   padding: 16px;
   @include flex(column, center, flex-start);
   gap: 8px;
 }
-.lesson-name, .lesson-duration, .lesson-size{
+.sibgle-lesson-name{
+    @include text(24px, 600, $text);
+}
+.sibgle-lesson-duration, .sibgle-lesson-level{
     @include text(16px, 400, $text);
 }

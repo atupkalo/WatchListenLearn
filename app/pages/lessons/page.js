@@ -1,4 +1,5 @@
 'use client';
+
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -9,37 +10,67 @@ export default function Lessons() {
   const [lessons, setLessons] = useState([]);
 
   useEffect(() => {
-    fetch('/data/lessons.json')
-      .then((res) => res.json())
-      .then(setLessons);
+    const fetchLessons = async () => {
+      try {
+        const files = ['v_lesson_1.json', 'v_lesson_2.json']; // Replace or extend if needed
+        const results = await Promise.all(
+          files.map((file) =>
+            fetch(`/video/${file}`)
+              .then((res) => res.ok ? res.json() : null)
+              .catch((err) => {
+                console.error(`Error fetching ${file}:`, err);
+                return null;
+              })
+          )
+        );
+
+        const validLessons = results
+          .filter(Boolean)
+          .flat(); // Flatten if individual files return arrays
+        setLessons(validLessons);
+      } catch (error) {
+        console.error('Failed to load lessons:', error);
+      }
+    };
+
+    fetchLessons();
   }, []);
 
   return (
-    <div className='lessons-wrap'>
+    <div>
       <Filters />
-      <ul className="lessons">
-        {lessons.map((lesson) => (
-          <li className="lesson" key={lesson.id}>
-            <Link href={`/pages/lessons/${lesson.id}`}>
-              <div className="type-icon">
-                <Image
-                  src={`/icons/${lesson.type === '1' ? 'audio' : 'video'}.svg`}
-                  alt="type"
-                  width={32}
-                  height={32}
-                />
-              </div>
-              <div className="thumbnail">
-              </div>
-              <div className="leson-info-wrap">
-                <div className="lesson-name">{lesson.name}</div>
-                <div className="lesson-duration">{lesson.duration}</div>
-                <div className="lesson-size">{lesson.length}</div>
-              </div>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div> 
+      <div className="single-lesson-wrap">
+        <ul className="single-lessons-list">
+          {lessons.map((lesson, index) => (
+            <li className="single-lesson" key={lesson["lesson id"] || index}>
+              <Link href={`/pages/lessons/${lesson["lesson id"]}`}>
+              {console.log('Lesson ID:', lesson["lesson id"])}
+                <div className="single-lesson-thumbnail">
+                  {lesson["lesson thumbnail"] ? (
+                    <Image
+                      src={lesson["lesson thumbnail"]}
+                      alt={lesson["lesson name"]}
+                      width={240}
+                      height={140}
+                    />
+                  ) : (
+                    <div className="thumbnail-placeholder">No Image</div>
+                  )}
+                </div>
+                <div className="single-lesson-info-wrap">
+                  <div className="single-lesson-name">{lesson["lesson name"]}</div>
+                  <div className="single-lesson-duration">
+                    <span>Duration: </span>{lesson.duration}
+                  </div>
+                  <div className="single-lesson-level">
+                    <span>Level: </span>{lesson.level}
+                  </div>
+                </div>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
   );
 }
