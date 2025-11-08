@@ -11,4 +11,9 @@
     gap: 32px;
     margin-bottom: 40px;
 }
-
+.filters-title{
+    @include text(20px, 400, #ffffff);
+}
+.filters-desc{
+    @include text(14px, 300, #ffffff);
+}

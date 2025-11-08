@@ -1,2 +1,56 @@
 @import "../../../styles/system";
 
+.single-video-lesson-single{
+    padding: 24px;
+    @include flex(row, flex-start, flex-start);
+    gap: 24px;
+}
+.single-video-lesson-left, .single-video-lesson-right{
+    @include flex(column, flex-start, flex-start);
+    gap: 16px;
+}
+.single-video-lesson-title{
+    @include title();
+}
+.single-video-lesson-interaction-level{
+    @include flex(row, flex-start, flex-start);
+    gap: 16px;
+}
+.single-video-lesson-btn{
+    padding: 4px 12px;
+    @include btn($primary, $primary700, $white);
+}
+.single-video-lesson-icon-chevron {
+    transition: transform 0.3s ease;
+  }
+  
+  .single-video-lesson-content-close-open .single-video-lesson-icon-chevron {
+    transform: rotate(180deg);
+  }
+  
+.single-video-lesson-content-close{
+    padding: 4px 8px;
+    @include flex(row, space-between, flex-start);
+    background: $redBg200;
+    border-radius: 6px;
+    border: solid 1px $red;
+    margin-bottom: 8px;
+    width: 200px;
+}
+.single-video-lesson-content-close-open{
+    background: $compBgLight;
+    border: none;
+}
+.single-video-lesson-text-box {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .single-video-lesson-text-box.opened {
+    max-height: 1000px; // make sure this is more than your content height
+    opacity: 1;
+    pointer-events: auto;
+  }
