@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import ExerciseBox from '../../components/ExerciseBox/ExerciseBox';
-import BeVsDo from '../../components/Exercises/AllExercises/BeVsDo';
+import BePresentPast from '../../components/Exercises/AllExercises/BePresentPast';
 import BePresent from '../../components/Exercises/AllExercises/BePresent';
 import BeVsDoAdvance from '../../components/Exercises/AllExercises/BeVsDoAdvance';
 import BeVsDoTranslate from '../../components/Exercises/AllExercises/BeVsDoTranslate';
@@ -15,7 +15,7 @@ export default function GrammarPage() {
 
   const exercises = [
     { id: 1, BodyComponent: BePresent },
-    { id: 2, BodyComponent: BeVsDo },
+    { id: 2, BodyComponent: BePresentPast },
     { id: 3, BodyComponent: BeVsDoAdvance },
     { id: 4, BodyComponent: BeVsDoTranslate },
     { id: 5, BodyComponent: BeVsDoListenAndSay },

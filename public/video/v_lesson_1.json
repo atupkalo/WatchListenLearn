@@ -4,20 +4,51 @@
     "lesson url": "https://player.vimeo.com/video/1133632648",
     "lesson thumbnail": "/img/pj.jpg",
     "level": "B1",
-    "duration": "Midium",
+    "English": "American",
+    "duration": "Medium",
     "lesson id": 1,
     "lesson desc": "Percy Jackson was a strange boy, and other kids often bullied him at school. After one of those times, his only friend Grover tried to make him feel better and said things were not so bad. Then another bully came and wanted to hurt them, but Percy didn’t let it happen.",
     "lesson script": [
-      "There are all sorts of schools of thought about what drives that kind of bullying. Childhood trauma, feelings of inadequacy...",
-      "Look, I get that Nancy has issues, I'm just getting tired of her taking them out on me. I feel like… maybe it's time to do something about it.",
-      "You could make an appointment to see Mr. Kane, he's really good at talking...",
-      "I was thinking more like shoving Nancy in the nearest dumpster.",
-      "Oh, no. No, no, no, no, no, no, no. No, if there's one thing I know about bullies, it is that you should never, ever stand up to them.",
-      "That doesn't sound right.",
-      "Look, I know this place is hard for people like us. But we're not gonna be here forever. There are better places out there.",
-      "Oops.",
-      "Percy…!",
-      "No, don’t."
+      {
+        "line": "1",
+        "script": "There are all sorts of schools of thought about what drives that kind of bullying. Childhood trauma, feelings of inadequacy..."
+      },
+      {
+        "line": "2",
+        "script": "Look, I get that Nancy has issues, I'm just getting tired of her taking them out on me. I feel like… maybe it's time to do something about it."
+      },
+      {
+        "line": "3",
+        "script": "You could make an appointment to see Mr. Kane, he's really good at talking..."
+      },
+      {
+        "line": "4",
+        "script": "I was thinking more like shoving Nancy in the nearest dumpster."
+      },
+      {
+        "line": "5",
+        "script": "Oh, no. No, no, no, no, no, no, no. No, if there's one thing I know about bullies, it is that you should never, ever stand up to them."
+      },
+      {
+        "line": "6",
+        "script": "That doesn't sound right."
+      },
+      {
+        "line": "7",
+        "script": "Look, I know this place is hard for people like us. But we're not gonna be here forever. There are better places out there."
+      },
+      {
+        "line": "8",
+        "script": "Oops."
+      },
+      {
+        "line": "9",
+        "script": "Percy…!"
+      },
+      {
+        "line": "10",
+        "script": "No, don’t."
+      }
     ],
     "lesson key": [
       {

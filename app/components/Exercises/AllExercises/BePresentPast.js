@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const MAX_QUESTIONS = 20;
 
-export default function BeVsDo({ onHeaderDataReady, onAnswer }) {
+export default function BePresentPast({ onHeaderDataReady, onAnswer }) {
   const [lessonData, setLessonData] = useState(null);
   const [order, setOrder] = useState([]);           // shuffled indices
   const [pos, setPos] = useState(0);                // pointer inside order
@@ -18,21 +18,21 @@ export default function BeVsDo({ onHeaderDataReady, onAnswer }) {
 
   useEffect(() => {
     async function fetchData() {
-      const res = await fetch('/data/be-vs-do.json');
+      const res = await fetch('/data/2_to_be_present_past.json');
       const json = await res.json();
       const lesson = json[0];
-
+     
       setLessonData(lesson);
-
+    
       onHeaderDataReady?.({
         lessonNumber: 1,
-        lessonName: lesson['lesson name'],
-        level: lesson.level || 'A2',
+        lessonName: lesson['lesson_name'],
+        level: lesson.level || 'A1',
         description: lesson.lesson_desc || 'Practice when to use be and do',
       });
 
       // Prepare a shuffled list of indices, capped to 20
-      const content = lesson['lesson content'] || [];
+      const content = lesson['lesson_content'] || [];
       const indices = Array.from({ length: content.length }, (_, i) => i);
       shuffle(indices);
       setOrder(indices.slice(0, Math.min(MAX_QUESTIONS, indices.length)));
@@ -44,7 +44,7 @@ export default function BeVsDo({ onHeaderDataReady, onAnswer }) {
 
   const currentItem = useMemo(() => {
     if (!lessonData || order.length === 0 || finished) return null;
-    return lessonData['lesson content'][order[pos]];
+    return lessonData['lesson_content'][order[pos]];
   }, [lessonData, order, pos, finished]);
 
   const handleSubmit = () => {
@@ -76,7 +76,7 @@ export default function BeVsDo({ onHeaderDataReady, onAnswer }) {
   };
 
   if (!lessonData || order.length === 0) return <p>Loading...</p>;
-
+   console.log(lessonData);
   return (
     <div className="be-vs-do exerices-body">
       <div className="exercies-metrix-wrap">
