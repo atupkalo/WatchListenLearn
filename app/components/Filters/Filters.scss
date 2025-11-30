@@ -11,7 +11,25 @@
     gap: 32px;
     margin-bottom: 40px;
 }
-.filters-title{
+.filters-lesson-definitions{
+    @include flex(row, flex-start, center);
+    gap: 16px;
+}
+.filter-lesson-category-wrap, .filter-lesson-instraction{
+    @include flex(row, flex-start, center);
+    gap: 4px;
+    color: #ffffff;
+}
+.filter-lesson-instraction{
+    text-decoration: underline;
+    margin-left: 4px;
+}
+.filter-lesson-value{
+   background-color: $primary700;
+   padding: 4px 16px;
+   border-radius: 20px;
+}
+.filters-lesson-title{
     @include text(20px, 400, #ffffff);
 }
 .filters-desc{

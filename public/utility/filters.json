@@ -1,0 +1,27 @@
+[
+    {
+      "id": "level",
+      "label": "Level",
+      "options": ["A1", "A2", "A2+", "B1", "B1+", "B2", "B2+", "C1"],
+      "multi": false
+    },
+    {
+      "id": "accent",
+      "label": "Accent",
+      "options": ["American", "British", "Australian"],
+      "multi": false
+    },
+    {
+      "id": "length",
+      "label": "Length",
+      "options": ["Short", "Medium", "Long"],
+      "multi": false
+    },
+    {
+      "id": "category",
+      "label": "Category",
+      "options": ["Conversational", "Dialog", "Slang", "Business", "Legislative", "Medicine", "Technology", "Narrative", "IT"],
+      "multi": true
+    }
+  ]
+  

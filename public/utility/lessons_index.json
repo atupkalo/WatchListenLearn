@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "lessonName": "Percy Jackson",
+      "thumbnail": "/img/pj.jpg",
+      "level": "B1/B1+",
+      "duration": "Medium",
+      "accent": "American"
+    },
+    {
+      "id": 2,
+      "lessonName": "Percy Jackson",
+      "thumbnail": "/img/pj.jpg",
+      "level": "B1/B1+",
+      "duration": "Medium",
+      "accent": "American"
+    },
+    {
+      "id": 3,
+      "lessonName": "Breaking Bad",
+      "thumbnail": "/img/bb.jpg",
+      "level": "B2",
+      "duration": "Medium",
+      "accent": "American"
+    }
+  ]
+  

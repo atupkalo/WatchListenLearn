@@ -1,0 +1,157 @@
+{
+
+  "id": "3",
+  "lessonName": "Breaking Bad",
+  "lessonUrl": "https://player.vimeo.com/video/1138277007",
+  "thumbnail": "/img/bb.jpg",
+
+  "level": "B1",
+  "accent": "American",
+  "duration": "Medium",
+  "category": "Conversational Dialogue Slang",
+
+  "description": {
+    "en": "In this scene, Walter White is having breakfast with his family on his birthday. His wife cooks plant-based bacon to make him eat healthier. This small detail shows both their age difference and the family’s financial struggles — later emphasized by a conversation about not being able to afford a new water heater.",
+    "uk": "У цій сцені Волтер Вайт снідає зі своєю сім’єю у день народження. Його дружина готує «рослинний бекон», щоб він харчувався здоровіше. Ця деталь підкреслює різницю у віці та фінансові труднощі сім’ї, про які вони говорять далі, згадуючи, що не можуть дозволити собі новий водонагрівач.",
+    "ru": "В этой сцене Уолтер Вайт завтракает с семьёй в день своего рождения. Его жена готовит растительный бекон, чтобы он ел более здоровую пищу. Эта деталь показывает разницу в возрасте и финансовые трудности семьи, которые становятся очевиднее, когда они говорят, что не могут позволить себе новый водонагреватель."
+  },
+
+  "script": [
+    {
+      "id": 1,
+      "script": "Happy birthday. — Look at that.",
+      "translation": {
+        "uk": "З днем народження. — Подивись на це.",
+        "ru": "С днём рождения. — Посмотри на это."
+      }
+    },
+    {
+      "id": 2,
+      "script": "That is veggie bacon, believe it or not — zero cholesterol, and you won't even taste the difference.",
+      "translation": {
+        "uk": "Це рослинний бекон, повір чи ні — нуль холестерину, і ти навіть не відчуєш різниці.",
+        "ru": "Это растительный бекон, веришь или нет — ноль холестерина, и ты даже не почувствуешь разницы."
+      },
+      "takeaway": {
+        "uk": "Veggie bacon — це бекон, зроблений із рослин (зазвичай сої або горохового білка). Фраза “believe it or not” — означає “повір чи ні”, вживається для підкреслення чогось дивного або несподіваного.",
+        "ru": "Veggie bacon — бекон из растительных ингредиентов (обычно сои или горохового белка). Фраза “believe it or not” — “веришь или нет”, используется для удивительных фактов."
+      }
+    },
+    {
+      "id": 3,
+      "script": "Hmm…!? — What time do you think you'll be home? — Same time.",
+      "translation": {
+        "uk": "Гмм…!? — О котрій, думаєш, будеш вдома? — У той самий час.",
+        "ru": "Гм…!? — Во сколько, думаешь, будешь дома? — В то же время."
+      }
+    },
+    {
+      "id": 4,
+      "script": "I don't want him dicking you around tonight. You get paid till five, you work till five — no later.",
+      "translation": {
+        "uk": "Я не хочу, щоб він знову тебе ганяв сьогодні. Тобі платять до п’ятої — отже, працюєш до п’ятої, не пізніше.",
+        "ru": "Я не хочу, чтобы он опять тобой помыкал сегодня. Тебе платят до пяти — значит, работаешь до пяти, не позже."
+      },
+      "takeaway": {
+        "uk": "Вираз “dicking someone around” — розмовний і грубуватий, означає “марнувати чийсь час” або “помикати людиною”.",
+        "ru": "Фраза “to dick someone around” — разговорная, значит “мучить кого-то”, “тянуть время”, “помыкать человеком”."
+      }
+    },
+    {
+      "id": 5,
+      "script": "Hey, hey, happy birthday. — Well, thank you.",
+      "translation": {
+        "uk": "Гей, гей, з днем народження. — Ну, дякую.",
+        "ru": "Эй, эй, с днём рождения. — Ну, спасибо."
+      }
+    },
+    {
+      "id": 6,
+      "script": "You're late again. — There was no hot water again.",
+      "translation": {
+        "uk": "Ти знову запізнився. — Знову не було гарячої води.",
+        "ru": "Ты снова опоздал. — Опять не было горячей воды."
+      }
+    },
+    {
+      "id": 7,
+      "script": "I have an easy fix for that. You wake up early, and then you get to be the first person in the shower.",
+      "translation": {
+        "uk": "У мене є просте рішення — прокидайся раніше, і тоді ти будеш першим у душі.",
+        "ru": "У меня есть простое решение — вставай поранньше, и тогда ты будешь первым в душе."
+      },
+      "takeaway": {
+        "uk": "Вираз “easy fix” означає просте рішення проблеми.",
+        "ru": "Фраза “easy fix” значит “простое решение проблемы”."
+      }
+    },
+    {
+      "id": 8,
+      "script": "I have an idea — how about buying a new hot-water heater? How’s that idea? For the million-billionth time?",
+      "translation": {
+        "uk": "У мене є ідея — може, просто купимо новий бойлер? Яка думка? Вже в мільйонний раз про це кажу!",
+        "ru": "У меня идея — может, просто купим новый водонагреватель? Как тебе такая мысль? Я уже в миллионный раз это говорю!"
+      },
+      "takeaway": {
+        "uk": "Вираз “for the million-billionth time” — перебільшення, яке означає “вже сто разів казав”.",
+        "ru": "Фраза “for the million-billionth time” — гипербола, значит “уже сто раз говорил”."
+      }
+    },
+    {
+      "id": 9,
+      "script": "Did you take your echinacea? — Yeah. I think it's getting better.",
+      "translation": {
+        "uk": "Ти прийняв ехінацею? — Так. Думаю, вже краще.",
+        "ru": "Ты принял эхинацею? — Да. Кажется, уже лучше."
+      },
+      "takeaway": {
+        "uk": "Echinacea — це трава або добавка, яку приймають для зміцнення імунітету.",
+        "ru": "Эхинацея — трава или добавка для укрепления иммунитета."
+      }
+    },
+    {
+      "id": 10,
+      "script": "What the hell is this? — Hey. — It's veggie bacon. We're watching our cholesterol, I guess.",
+      "translation": {
+        "uk": "Що за біса це таке? — Гей. — Це рослинний бекон. Ми ж тепер слідкуємо за холестерином, здається.",
+        "ru": "Что это, чёрт возьми? — Эй. — Это растительный бекон. Мы ведь следим за холестерином, вроде бы."
+      },
+      "takeaway": {
+        "uk": "Вираз “What the hell” — емоційне обурення, аналог “що за біса”.",
+        "ru": "Фраза “What the hell” — выражение раздражения, значит “что за чёрт”."
+      }
+    },
+    {
+      "id": 11,
+      "script": "Not me. I want real bacon. Not this fake crap. — Too bad. Eat it.",
+      "translation": {
+        "uk": "Я — ні. Хочу справжній бекон, а не цю підробку. — Шкода. Їж.",
+        "ru": "Не я. Я хочу настоящий бекон, а не эту подделку. — Жаль. Ешь."
+      }
+    },
+    {
+      "id": 12,
+      "script": "This smells like Band-Aids. — Eat it.",
+      "translation": {
+        "uk": "Воно пахне, як пластир. — Їж.",
+        "ru": "Пахнет, как лейкопластырь. — Ешь."
+      },
+      "takeaway": {
+        "uk": "Band-Aid — популярна торгова марка пластирів у США, часто використовується як загальна назва для будь-якого пластиру.",
+        "ru": "Band-Aid — известная марка пластырей в США, часто используется как нарицательное слово для любого пластыря."
+      }
+    },
+    {
+      "id": 13,
+      "script": "So how does it feel to be old? — How does it feel to be a smart-ass? — Good. — Eat your veggie bacon.",
+      "translation": {
+        "uk": "Ну як воно — бути старим? — А як тобі бути нахабним? — Добре. — Їж свій рослинний бекон.",
+        "ru": "Ну каково это — быть старым? — А каково это — быть умником? — Хорошо. — Ешь свой растительный бекон."
+      },
+      "takeaway": {
+        "uk": "Smart-ass — розмовне слово для людини, яка говорить зухвало або занадто самовпевнено.",
+        "ru": "Smart-ass — разговорное слово для человека, который ведёт себя дерзко или слишком уверенно."
+      }
+    }
+  ]
+}

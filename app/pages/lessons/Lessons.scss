@@ -14,12 +14,8 @@
         box-shadow:  0 0 12px rgba(0, 0, 0, 0.2);
     }
 }
-.type-icon{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-.sibgle-lesson-thumbnail{
+
+.single-lesson-thumbnail{
     min-height: 120px;
     @include bg("/img/flag.jpg");
 }
@@ -28,9 +24,12 @@
   @include flex(column, center, flex-start);
   gap: 8px;
 }
-.sibgle-lesson-name{
-    @include text(24px, 600, $text);
+.single-lesson-name{
+    @include text(20px, 600, $text);
 }
-.sibgle-lesson-duration, .sibgle-lesson-level{
+.single-lesson-duration, .single-lesson-level{
+    @include text(16px, 500, $text);
+}
+.single-lesson-level-span{
     @include text(16px, 400, $text);
 }

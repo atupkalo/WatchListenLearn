@@ -1,56 +1,199 @@
 @import "../../../styles/system";
 
-.single-video-lesson-single{
+.single-video-lesson-content-wrap{
     padding: 24px;
     @include flex(row, flex-start, flex-start);
     gap: 24px;
 }
 .single-video-lesson-left, .single-video-lesson-right{
+    width: 50%;
     @include flex(column, flex-start, flex-start);
     gap: 16px;
 }
-.single-video-lesson-title{
-    @include title();
+.single-video-lesson-video{
+    @include flex(row, center, center);
 }
-.single-video-lesson-interaction-level{
+.lesson-video{
+  border-radius: 20px;
+  border: 2px solid $primary;
+  overflow: hidden;
+}
+.single-video-lesson-working-area{
+    min-width: 600px;
+  border-radius: 20px;
+  background-color: $copmBg;
+  padding: 16px;
+}
+.video-lesson-levels{
     @include flex(row, flex-start, flex-start);
     gap: 16px;
 }
-.single-video-lesson-btn{
-    padding: 4px 12px;
-    @include btn($primary, $primary700, $white);
+.video-lesson-level-label{
+    @include text(16px, 500, $text);
 }
-.single-video-lesson-icon-chevron {
-    transition: transform 0.3s ease;
-  }
-  
-  .single-video-lesson-content-close-open .single-video-lesson-icon-chevron {
-    transform: rotate(180deg);
-  }
-  
-.single-video-lesson-content-close{
-    padding: 4px 8px;
-    @include flex(row, space-between, flex-start);
-    background: $redBg200;
-    border-radius: 6px;
-    border: solid 1px $red;
+.video-lesson-error-massage{
+    @include text(16px, 400, #ea0606);
+}
+.video-lesson-level{
+    transition: .3s;
+    @include text(16px, 400, $primary);
+    cursor: pointer;
+    &:hover{
+        opacity: .8;
+    }
+}
+.video-lesson-level-active{
+    @include text(16px, 600, $primary700);
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 12%; 
+    text-underline-offset: 16%; 
+}
+
+// .script-disply{
+//     display: none:
+// }
+
+.video-lesson-script-hard-control{
+    @include flex(row, space-between, center);
+    padding: 16px 0;
+}
+
+.video-lesson-script-line-wrap{
+    @include flex(row, flex-start, flex-start);
+    gap: 16px;
+    padding-bottom: 4px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.video-lesson-script-line-number{
+    @include text(18px, 500, $text);
+    @include flex(row, flex-start, center);
+    gap: 4px;
+}
+.video-lesson-btn-wrap{
+    @include flex(row, flex-start, center);
+    gap: 8px;
+}
+
+.video-lesson-input-hard, .video-lesson-input-easy{
+    font-size: 16px;
+    transition: .3s;
+    height: 32px;
+    border: 1px solid #7d7d7d;
+    &:hover{
+        border: 1.5px solid $primary; 
+    }
+    &:focus-visible{
+        outline: none;
+        border: 2px solid $red;
+    }
+}
+
+.video-lesson-input-easy{
+    height: 28px;
+    margin: 1px 1px;
+}
+
+.video-lesson-input-hard-width{
+    min-width: 320px;
+}
+.video-lesson-btn-hard{
+    transition: .3s;
+    @include btn($primary600, $primary700, #ffffff);
+    padding: 8px 16px;
+    &:hover{
+        background: $primary;
+    }
+}
+.video-lesson-btn-hint{
+    transition: .3s;
+    @include btn($red700, $red700, #ffffff);
+    padding: 8px 16px;
+    &:hover{
+        background: $red;
+    }
+}
+.video-lesson-error-message{
+    @include text(1rem, 500, #d70909);
+    width: 100%;
+    text-align: center;
+    padding: 4px 16px;
+}
+// ======================================================  LESSON RIGHT
+.single-video-lesson-key-line-wrap{
+    width: 100%;
+}
+.single-video-lesson-key-line{
+    @include flex(row, space-between, center);
+}    
+.video-lesson-section-titles{
+    @include title();
     margin-bottom: 8px;
-    width: 200px;
 }
-.single-video-lesson-content-close-open{
-    background: $compBgLight;
-    border: none;
+.single-video-lessson-description, .single-video-lesson-key-item{
+    @include panel();
+    padding: 16px;
 }
-.single-video-lesson-text-box {
+.single-video-lesson-key-item{
+    @include flex(column, flex-start, flex-start);
+    gap: 16px;
+    margin-bottom: 4px;
+}
+
+.single-video-lesson-key-line-number{
+    @include text(18px, 500, $text);
+}
+
+.single-video-lesson-key-line-wrap span{
+    @include text(16px, 600, #171717);
+}
+.single-video-lesson-key-line-number span{
+    @include text(20px, 500, $text);
+}
+.video-lesson-correct-answer{
+    border: 1px solid #057e1b;
+    background: #def4e2;
+}
+// ===================================================== Open / Close Key
+.single-video-lesson-key-content-wrap {
     max-height: 0;
     overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
     opacity: 0;
-    transition: max-height 0.4s ease, opacity 0.3s ease;
-    pointer-events: none;
+    transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+  }
+
+  .single-video-lesson-key-line-open-close{
+    cursor: pointer;
+    padding: 3px 4px 0px 4px;
+    border-radius: 50%;
+    transition: .3s;
+    &:hover{
+        background-color: $white;
+    }
   }
   
-  .single-video-lesson-text-box.opened {
-    max-height: 1000px; // make sure this is more than your content height
+  .single-video-lesson-key-content-wrap-opened {
+    max-height: 1000px; // enough to fit the tallest content
+    padding-top: 12px;
+    padding-bottom: 12px;
     opacity: 1;
-    pointer-events: auto;
   }
+  
+
+
+
+.single-video-lesson-script{
+   color: $text;
+}
+.single-video-lesson-translation{
+  color: #057e1b;
+}
+.single-video-lesson-takeaways{
+   color: #3f14cb;
+}

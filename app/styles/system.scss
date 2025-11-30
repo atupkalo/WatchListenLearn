@@ -5,7 +5,7 @@ $compBgLight: #f9fafb;
 $primary: #56678f;
 $primary600: #435070;
 $primary700: #435070;
-$textTitle: #454954;
+$textTitle: #272a30;
 $text: #2E3138;
 $white: #f9fafb;
 $green: #4d7d80;
@@ -39,7 +39,7 @@ $font-text: 'Red Hat Text', sans-serif;
     padding: 12px;
     background-color: $bgColor;
 }
-@mixin title($size: 32px, $weight: 600, $color: $textTitle){
+@mixin title($size: 20px, $weight: 600, $color: $textTitle){
    font-family: $font-title;
    color: $color;
    font-size: $size;
@@ -66,7 +66,6 @@ $font-text: 'Red Hat Text', sans-serif;
     color: $textColor;
  }
  @mixin panel(){
-    border: 1px solid $primary;
     border-radius: 20px;
     background: $copmBg;
  }

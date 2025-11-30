@@ -14,8 +14,8 @@ const redHatText = Red_Hat_Text({
 });
 
 export const metadata = {
-  title: "Trucker English",
-  description: "CDL training and vocabulary practice",
+  title: "Watch Listen Learn",
+  description: "Best way to learn English",
 };
 
 export default function RootLayout({ children }) {

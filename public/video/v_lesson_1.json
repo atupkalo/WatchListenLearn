@@ -1,131 +1,112 @@
-[
-  {
-    "lesson name": "Percy Jackson",
-    "lesson url": "https://player.vimeo.com/video/1133632648",
-    "lesson thumbnail": "/img/pj.jpg",
-    "level": "B1",
-    "English": "American",
-    "duration": "Medium",
-    "lesson id": 1,
-    "lesson desc": "Percy Jackson was a strange boy, and other kids often bullied him at school. After one of those times, his only friend Grover tried to make him feel better and said things were not so bad. Then another bully came and wanted to hurt them, but Percy didn’t let it happen.",
-    "lesson script": [
-      {
-        "line": "1",
-        "script": "There are all sorts of schools of thought about what drives that kind of bullying. Childhood trauma, feelings of inadequacy..."
+{
+  "id": "1",
+  "lessonName": "Percy Jackson",
+  "lessonUrl": "https://player.vimeo.com/video/1133632648",
+  "thumbnail": "/img/pj.jpg",
+
+  "level": "B1",
+  "accent": "American",
+  "duration": "Medium",
+  "category": "Conversational Dialogue Slang",
+
+  "description": {
+    "en": "Percy Jackson was a strange boy, and other kids often bullied him at school. After one of those times, his only friend Grover tried to make him feel better and said things were not so bad. Then another bully came and wanted to hurt them, but Percy didn’t let it happen.",
+    "uk": "Персі Джексон був дивним хлопцем, і інші діти часто знущалися з нього в школі. Після чергового випадку його єдиний друг Ґровер намагався його підбадьорити й казав, що все не так погано. Потім прийшов ще один хуліган і хотів нашкодити їм, але Персі цього не дозволив.",
+    "ru": "Перси Джексон был странным мальчиком, и другие дети часто издевались над ним в школе. После одного из таких случаев его единственный друг Гроувер попытался его поддержать и сказал, что всё не так плохо. Затем появился ещё один забияка и хотел причинить им вред, но Перси этого не допустил."
+  },
+
+  "script": [
+    {
+      "id": 1,
+      "script": "There are all sorts of schools of thought about what drives that kind of bullying. Childhood trauma, feelings of inadequacy...",
+      "translation": {
+        "uk": "Існує багато різних думок про те, що викликає таке знущання. Дитячі травми, почуття неповноцінності…",
+        "ru": "Существует много разных мнений о том, что вызывает такое издевательство. Детские травмы, чувство неполноценности…"
       },
-      {
-        "line": "2",
-        "script": "Look, I get that Nancy has issues, I'm just getting tired of her taking them out on me. I feel like… maybe it's time to do something about it."
-      },
-      {
-        "line": "3",
-        "script": "You could make an appointment to see Mr. Kane, he's really good at talking..."
-      },
-      {
-        "line": "4",
-        "script": "I was thinking more like shoving Nancy in the nearest dumpster."
-      },
-      {
-        "line": "5",
-        "script": "Oh, no. No, no, no, no, no, no, no. No, if there's one thing I know about bullies, it is that you should never, ever stand up to them."
-      },
-      {
-        "line": "6",
-        "script": "That doesn't sound right."
-      },
-      {
-        "line": "7",
-        "script": "Look, I know this place is hard for people like us. But we're not gonna be here forever. There are better places out there."
-      },
-      {
-        "line": "8",
-        "script": "Oops."
-      },
-      {
-        "line": "9",
-        "script": "Percy…!"
-      },
-      {
-        "line": "10",
-        "script": "No, don’t."
+      "takeaway": {
+        "uk": "Вираз “school of thought” означає певний підхід або філософію, яку поділяє група людей.",
+        "ru": "Выражение “school of thought” означает определённый подход или философию, разделяемую группой людей."
       }
-    ],
-    "lesson key": [
-      {
-        "line": "1",
-        "script": "There are all sorts of schools of thought about what drives that kind of bullying. Childhood trauma, feelings of inadequacy...",
-        "translation": "Існує багато різних думок про те, що викликає таке знущання. Дитячі травми, почуття неповноцінності…",
-        "script-key": [
-          {
-            "key-word": "schools of thought",
-            "key-explanation": "Вираз 'school of thought' означає певну філософію або підхід, який поділяє група людей. Це спосіб мислення або набір ідей щодо конкретної теми."
-          }
-        ]
+    },
+    {
+      "id": 2,
+      "script": "Look, I get that Nancy has issues, I'm just getting tired of her taking them out on me. I feel like… maybe it's time to do something about it.",
+      "translation": {
+        "uk": "Слухай, я розумію, що у Ненсі є свої проблеми, але мені набридло, що вона зривається на мені. Я відчуваю… може, час щось із цим зробити.",
+        "ru": "Слушай, я понимаю, что у Нэнси есть свои проблемы, но мне надоело, что она срывается на мне. Мне кажется… может, пора что-то с этим сделать."
       },
-      {
-        "line": "2",
-        "script": "Look, I get that Nancy has issues, I'm just getting tired of her taking them out on me. I feel like… maybe it's time to do something about it.",
-        "translation": "Слухай, я розумію, що у Ненсі є свої проблеми, але мені набридло, що вона зривається на мені. Я відчуваю… може, час щось із цим зробити.",
-        "script-key": [
-          {
-            "key-word": "to take out on",
-            "key-explanation": "Фразове дієслово 'take out on' означає 'виміщати злість або роздратування на когось'."
-          }
-        ]
-      },
-      {
-        "line": "3",
-        "script": "You could make an appointment to see Mr. Kane, he's really good at talking...",
-        "translation": "Ти можеш записатися на прийом до містера Кейна, він справді вміє розмовляти…",
-        "script-key": []
-      },
-      {
-        "line": "4",
-        "script": "I was thinking more like shoving Nancy in the nearest dumpster.",
-        "translation": "Я думав швидше про те, щоб запхати Ненсі в найближчий смітник.",
-        "script-key": []
-      },
-      {
-        "line": "5",
-        "script": "Oh, no. No, no, no, no, no, no, no. No, if there's one thing I know about bullies, it is that you should never, ever stand up to them.",
-        "translation": "О, ні. Ні, ні, ні, ні, ні, ні, ні. Якщо я щось і знаю про хуліганів, то це те, що ніколи не можна їм протистояти.",
-        "script-key": [
-          {
-            "key-word": "stand up to",
-            "key-explanation": "Фразове дієслово 'stand up to' означає 'протистояти' або 'вистояти проти когось'."
-          }
-        ]
-      },
-      {
-        "line": "6",
-        "script": "That doesn't sound right.",
-        "translation": "Це звучить неправильно.",
-        "script-key": []
-      },
-      {
-        "line": "7",
-        "script": "Look, I know this place is hard for people like us. But we're not gonna be here forever. There are better places out there.",
-        "translation": "Слухай, я знаю, що це місце непросте для таких, як ми. Але ми не будемо тут вічно. Є кращі місця там, за межами.",
-        "script-key": []
-      },
-      {
-        "line": "8",
-        "script": "Oops.",
-        "translation": "Ой!",
-        "script-key": []
-      },
-      {
-        "line": "9",
-        "script": "Percy…!",
-        "translation": "Персі…!",
-        "script-key": []
-      },
-      {
-        "line": "10",
-        "script": "No, don’t.",
-        "translation": "Ні, не треба!",
-        "script-key": []
+      "takeaway": {
+        "uk": "Фраза “take out on someone” означає виміщати злість або роздратування на комусь.",
+        "ru": "Фраза “take out on someone” означает вымещать злость или раздражение на ком-то."
       }
-    ]
-  }
-]
+    },
+    {
+      "id": 3,
+      "script": "You could make an appointment to see Mr. Kane, he's really good at talking...",
+      "translation": {
+        "uk": "Ти можеш записатися на прийом до містера Кейна, він справді вміє розмовляти…",
+        "ru": "Ты можешь записаться на приём к мистеру Кейну, он действительно хорошо умеет разговаривать…"
+      }
+    },
+    {
+      "id": 4,
+      "script": "I was thinking more like shoving Nancy in the nearest dumpster.",
+      "translation": {
+        "uk": "Я думав швидше про те, щоб запхати Ненсі в найближчий смітник.",
+        "ru": "Я думал скорее о том, чтобы запихнуть Нэнси в ближайший мусорный контейнер."
+      }
+    },
+    {
+      "id": 5,
+      "script": "Oh, no. No, no, no, no, no, no, no. No, if there's one thing I know about bullies, it is that you should never, ever stand up to them.",
+      "translation": {
+        "uk": "О, ні. Ні, ні, ні, ні, ні, ні, ні. Якщо я щось і знаю про хуліганів, то це те, що ніколи не можна їм протистояти.",
+        "ru": "О, нет. Нет, нет, нет, нет, нет, нет, нет. Если я что-то и знаю о хулиганах, так это то, что им никогда, ни при каких обстоятельствах нельзя противостоять."
+      },
+      "takeaway": {
+        "uk": "“Stand up to someone” означає протистояти або давати відсіч.",
+        "ru": "“Stand up to someone” означает противостоять или давать отпор."
+      }
+    },
+    {
+      "id": 6,
+      "script": "That doesn't sound right.",
+      "translation": {
+        "uk": "Це звучить неправильно.",
+        "ru": "Это звучит неправильно."
+      }
+    },
+    {
+      "id": 7,
+      "script": "Look, I know this place is hard for people like us. But we're not gonna be here forever. There are better places out there.",
+      "translation": {
+        "uk": "Слухай, я знаю, що це місце непросте для таких, як ми. Але ми не будемо тут вічно. Є кращі місця там, за межами.",
+        "ru": "Слушай, я знаю, что это место тяжёлое для таких, как мы. Но мы не будем здесь вечно. Там, снаружи, есть места получше."
+      }
+    },
+    {
+      "id": 8,
+      "script": "Oops.",
+      "translation": {
+        "uk": "Ой!",
+        "ru": "Ой!"
+      }
+    },
+    {
+      "id": 9,
+      "script": "Percy…!",
+      "translation": {
+        "uk": "Персі…!",
+        "ru": "Перси…!"
+      }
+    },
+    {
+      "id": 10,
+      "script": "No, don’t.",
+      "translation": {
+        "uk": "Ні, не треба!",
+        "ru": "Нет, не надо!"
+      }
+    }
+  ]
+}

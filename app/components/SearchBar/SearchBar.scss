@@ -1,0 +1,23 @@
+@import "../../styles/system";
+.search-bar{
+    width: 100%;
+    background: $primary;
+    margin: 1rem 0 1rem 0;
+    border-radius: 50px 0 0 50px;
+    padding: 0.5rem 1.5rem;
+}
+.search-bar, .search-list {
+    @include flex(row, flex-start, center);
+    gap: 16px;
+  }
+
+  .apply-button {
+    @include btn ($red700, #ffffff, #ffffff);
+    padding: 0.5rem 1rem;
+    &:hover{
+        background: $red;
+    }
+  }
+  .multi-select{
+    display: none;
+  }
